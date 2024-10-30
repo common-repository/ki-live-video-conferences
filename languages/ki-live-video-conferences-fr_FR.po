@@ -1,0 +1,655 @@
+# Translation of Plugins - KI Live Video Conferences - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - KI Live Video Conferences - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - KI Live Video Conferences - Development (trunk)\n"
+
+#: video_chat/meta_boxes.php:538
+msgid "Meeting Hashtag"
+msgstr ""
+
+#: video_chat/meta_boxes.php:335
+msgid "Tacher"
+msgstr ""
+
+#: admin/templates/overview.php:407
+msgid "Search"
+msgstr ""
+
+#: admin/templates/overview.php:395 admin/templates/overview.php:400
+msgid "Member"
+msgstr ""
+
+#: admin/templates/overview.php:361 admin/templates/overview.php:366
+msgid "Presenters"
+msgstr ""
+
+#: admin/templates/overview.php:333
+msgid "Upcoming meetings"
+msgstr ""
+
+#: admin/templates/overview.php:328
+msgid "Toggle panel: Activity"
+msgstr ""
+
+#: admin/templates/overview.php:310 admin/templates/overview.php:312
+msgid "Meeting calendar"
+msgstr ""
+
+#: admin/templates/overview.php:280
+msgid "Graphic"
+msgstr ""
+
+#: admin/templates/overview.php:275
+msgid "Toggle panel: WordPress Events and News"
+msgstr ""
+
+#: admin/templates/overview.php:267
+msgid "Show"
+msgstr ""
+
+#: admin/templates/overview.php:265
+msgid "Edit"
+msgstr ""
+
+#: admin/templates/overview.php:254
+msgid "Room_"
+msgstr ""
+
+#: admin/templates/overview.php:231
+msgid "Start Time"
+msgstr ""
+
+#: admin/templates/overview.php:171 admin/templates/overview.php:302
+msgid "Your Recent Drafts"
+msgstr ""
+
+#: admin/templates/overview.php:168 admin/templates/overview.php:179
+#: admin/templates/overview.php:182 admin/templates/overview.php:299
+msgid "Quick Meeting"
+msgstr ""
+
+#: admin/templates/overview.php:166 admin/templates/overview.php:297
+msgid "Toggle panel:"
+msgstr ""
+
+#: admin/templates/overview.php:144
+msgid "New member"
+msgstr ""
+
+#: admin/templates/overview.php:140
+msgid "Audience"
+msgstr ""
+
+#: admin/templates/overview.php:133
+msgid "Add new meeting"
+msgstr ""
+
+#: admin/templates/overview.php:127
+msgid "Next Steps"
+msgstr ""
+
+#: admin/templates/overview.php:123
+msgid "Customize Your Plugin"
+msgstr ""
+
+#: admin/templates/overview.php:117
+msgid "We’ve assembled some links to get you started:"
+msgstr ""
+
+#: admin/templates/overview.php:116
+msgid "Welcome to KI LIVE CONFERENCE"
+msgstr ""
+
+#: admin/templates/settings.php:34
+msgid "Education"
+msgstr ""
+
+#: admin/templates/settings.php:33
+msgid "Medicine"
+msgstr ""
+
+#: admin/templates/settings.php:27
+msgid "Select purpose"
+msgstr ""
+
+#: admin/templates/settings.php:18
+msgid "KI Conferences General Settings"
+msgstr ""
+
+#: admin/templates/get_started.php:42
+msgid "Video Platform"
+msgstr ""
+
+#: admin/templates/get_started.php:40
+msgid "Healthcare"
+msgstr ""
+
+#: admin/templates/get_started.php:38
+msgid "Learning"
+msgstr ""
+
+#: admin/templates/overview.php:111 admin/menu.php:241 admin/menu.php:242
+msgid "Overview"
+msgstr ""
+
+#: admin/templates/overview.php:120 admin/menu.php:224 admin/menu.php:225
+msgid "Get Started"
+msgstr ""
+
+#: video_chat/include_um.php:192
+msgid "Whether to send the user an email when he updated their account"
+msgstr ""
+
+#: video_chat/include_um.php:185
+msgid "Patient Invite Meeting"
+msgstr ""
+
+#: admin/templates/overview.php:102
+#: video_chat/tmpl/views/forms/room_education.php:119
+#: video_chat/meta_boxes.php:345
+msgid "Student"
+msgstr ""
+
+#: admin/templates/overview.php:98
+#: video_chat/tmpl/views/forms/room_education.php:115
+#: video_chat/tmpl/views/forms/meeting_request_student.php:38
+msgid "Teacher"
+msgstr ""
+
+#: video_chat/tmpl/views/meeting_request.php:9
+msgid "Your new meeting request"
+msgstr ""
+
+#: video_chat/tmpl/views/account_list_students.php:13
+msgid "New Student"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/room.php:173
+#: video_chat/tmpl/views/forms/room_education.php:176
+msgid "Yes"
+msgstr ""
+
+#: video_chat/tmpl/views/meeting_request.php:11
+#: video_chat/tmpl/views/forms/room.php:107
+#: video_chat/tmpl/views/forms/room_education.php:107
+#: video_chat/tmpl/views/new_user.php:10
+msgid "Back to the profile"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/default.php:142
+msgid "Create"
+msgstr ""
+
+#: video_chat/tmpl/views/account_patient.php:37
+#: video_chat/tmpl/views/account_teacher.php:57
+#: video_chat/tmpl/views/account_doctor.php:57
+#: video_chat/tmpl/views/account_student_meetings_request.php:63
+#: video_chat/tmpl/views/account_patient_meetings_request.php:63
+#: video_chat/tmpl/views/account_student.php:37
+#: video_chat/tmpl/views/account_teacher_meetings_request.php:54
+msgid "You don't have meetings yet"
+msgstr ""
+
+#: admin/templates/overview.php:259
+#: video_chat/tmpl/views/forms/meeting_request.php:165
+#: video_chat/tmpl/views/forms/meeting_request_student.php:165
+#: video_chat/tmpl/views/forms/appointment.php:165
+msgid "Submit"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/room.php:215
+#: video_chat/tmpl/views/forms/room_education.php:218
+msgid "Save"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/room.php:201
+#: video_chat/tmpl/views/forms/room_education.php:204
+msgid "Comment"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/room.php:167
+#: video_chat/tmpl/views/forms/room_education.php:170
+msgid "Description"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/room.php:136
+#: video_chat/tmpl/views/forms/room_education.php:139
+msgid "Name room"
+msgstr ""
+
+#: admin/templates/overview.php:94 video_chat/tmpl/views/forms/room.php:119
+#: video_chat/meta_boxes.php:325
+msgid "Patient"
+msgstr ""
+
+#: admin/templates/overview.php:90 video_chat/tmpl/views/forms/room.php:115
+#: video_chat/tmpl/views/forms/meeting_request.php:38
+#: video_chat/tmpl/views/forms/appointment.php:38 video_chat/meta_boxes.php:314
+msgid "Doctor"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/room.php:110
+#: video_chat/tmpl/views/forms/room_education.php:110
+msgid "Room"
+msgstr ""
+
+#: video_chat/tmpl/views/account_assistant.php:18
+msgid "New Doctor"
+msgstr ""
+
+#: video_chat/tmpl/views/account_assistant.php:14
+msgid "Doctors"
+msgstr ""
+
+#: video_chat/tmpl/views/account_assistant.php:12
+msgid "Doctors and Meetings"
+msgstr ""
+
+#: video_chat/tmpl/views/account_assistant.php:38
+msgid "New Room"
+msgstr ""
+
+#: video_chat/tmpl/views/account_patient.php:40
+#: video_chat/tmpl/views/account_patient.php:46
+#: video_chat/tmpl/views/account_teacher.php:31
+#: video_chat/tmpl/views/account_teacher.php:60
+#: video_chat/tmpl/views/account_doctor.php:31
+#: video_chat/tmpl/views/account_doctor.php:60
+#: video_chat/tmpl/views/account_student_meetings_request.php:31
+#: video_chat/tmpl/views/account_student_meetings_request.php:66
+#: video_chat/tmpl/views/account_patient_meetings_request.php:31
+#: video_chat/tmpl/views/account_patient_meetings_request.php:66
+#: video_chat/tmpl/views/account_student.php:40
+#: video_chat/tmpl/views/account_student.php:46
+msgid "Create a meeting request"
+msgstr ""
+
+#: video_chat/tmpl/views/account_meetings_request.php:42
+#: video_chat/tmpl/views/account_teacher_meetings_request.php:45
+msgid "Meeting requests"
+msgstr ""
+
+#: video_chat/tmpl/views/members.php:10 video_chat/tmpl/views/new_user.php:14
+msgid "&#9668;"
+msgstr ""
+
+#: video_chat/meta_boxes.php:671 video_chat/meta_boxes.php:675
+msgid "Assistants"
+msgstr ""
+
+#: video_chat/assets/js/block.js:140
+msgid "Always show the latest meeting"
+msgstr ""
+
+#: video_chat/assets/js/block.js:126
+msgid "Your meeting will be added here. Please click here."
+msgstr ""
+
+#: video_chat/assets/js/block.js:64
+msgid "Conference video"
+msgstr ""
+
+#: video_chat/assets/js/block.js:49
+msgid "Select a meeting id"
+msgstr ""
+
+#: video_chat/assets/js/block.js:44
+msgid "Loading..."
+msgstr ""
+
+#: video_chat/assets/js/block.js:39
+msgid "Select meeting"
+msgstr ""
+
+#: admin/menu.php:258 admin/menu.php:259 settings/settings.php:79
+#: settings/settings.php:80
+msgid "Settings"
+msgstr ""
+
+#: admin/menu.php:204 settings/settings.php:66
+msgid "KI Conferences"
+msgstr ""
+
+#: admin/templates/settings.php:139 settings/templates/settings.php:119
+msgid "Save Changes"
+msgstr ""
+
+#: admin/templates/settings.php:118 settings/templates/settings.php:98
+msgid "Hook"
+msgstr ""
+
+#: admin/templates/settings.php:93 settings/templates/settings.php:73
+msgid "Rainbow settings"
+msgstr ""
+
+#: admin/templates/settings.php:72 admin/templates/settings.php:109
+#: settings/templates/settings.php:52 settings/templates/settings.php:89
+msgid "API Secret"
+msgstr ""
+
+#: admin/templates/settings.php:63 admin/templates/settings.php:100
+#: settings/templates/settings.php:43 settings/templates/settings.php:80
+msgid "API Key"
+msgstr ""
+
+#: admin/templates/settings.php:57 settings/templates/settings.php:37
+msgid "Zoom settings"
+msgstr ""
+
+#: admin/templates/settings.php:48 settings/templates/settings.php:28
+msgid "Zoom"
+msgstr ""
+
+#: admin/templates/settings.php:43 settings/templates/settings.php:23
+msgid "Select service"
+msgstr ""
+
+#: settings/templates/settings.php:13
+msgid "KI Publisher General Settings"
+msgstr ""
+
+#: video_chat/rainbow.php:130
+msgid "Error description: "
+msgstr ""
+
+#: video_chat/rainbow.php:129
+msgid "Error: "
+msgstr ""
+
+#: video_chat/rainbow.php:114
+msgid "Rainbow JS Token"
+msgstr ""
+
+#: video_chat/ajax.php:55
+msgid "User-"
+msgstr ""
+
+#: video_chat/tmpl/rainbow/rainbow.php:102
+msgid "You have to receive an invitation to join."
+msgstr ""
+
+#: video_chat/tmpl/rainbow/rainbow.php:100
+msgid "Progress..."
+msgstr ""
+
+#: video_chat/tmpl/rainbow/rainbow.php:80
+msgid "Close"
+msgstr ""
+
+#: video_chat/tmpl/rainbow/rainbow.php:14
+msgid "Rainbow Video Chat"
+msgstr ""
+
+#: video_chat/tmpl/views/members.php:12
+#: video_chat/tmpl/views/account_list_patients.php:13
+#: video_chat/tmpl/views/new_user.php:16
+msgid "New Patient"
+msgstr ""
+
+#: video_chat/rainbow.php:131
+msgid "Back"
+msgstr ""
+
+#: video_chat/tmpl/views/account_assistant.php:15
+#: video_chat/tmpl/views/account.php:10
+msgid "Patients"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:163
+msgid "Email"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:155
+msgid "Name"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:146
+#: video_chat/tmpl/shortcode/zoom.php:167
+msgid "Registration"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:125
+msgid "Remember me"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:112
+#: video_chat/tmpl/shortcode/zoom.php:123
+#: video_chat/tmpl/shortcode/zoom.php:126
+#: video_chat/tmpl/shortcode/zoom.php:147
+msgid "Login"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:108
+msgid "Meeting password"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:104
+msgid "Your name"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:53
+msgid "You haven't add the meeting id"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:44
+msgid "You have not filled in all the fields."
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:42
+msgid "Are you registered?"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/rainbow.php:46
+msgid "The conference has not started yet."
+msgstr ""
+
+#: video_chat/tmpl/shortcode/rainbow.php:35
+msgid "Log in please"
+msgstr ""
+
+#: video_chat/meta_boxes.php:646
+msgid "Show the meeting on the front-end"
+msgstr ""
+
+#: video_chat/meta_boxes.php:596
+msgid "Meeting id"
+msgstr ""
+
+#: video_chat/meta_boxes.php:590 video_chat/meta_boxes.php:653
+msgid "Start via Browser"
+msgstr ""
+
+#: video_chat/meta_boxes.php:583
+msgid "Join Meeting"
+msgstr ""
+
+#: video_chat/meta_boxes.php:575
+msgid "Start Meeting"
+msgstr ""
+
+#: video_chat/meta_boxes.php:484
+msgid "Contacts"
+msgstr ""
+
+#: admin/templates/settings.php:49 settings/templates/settings.php:29
+#: video_chat/meta_boxes.php:478
+msgid "Rainbow"
+msgstr ""
+
+#: video_chat/tmpl/rainbow/rainbow.php:86 video_chat/meta_boxes.php:450
+msgid "Inviting"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/rainbow.php:29 video_chat/meta_boxes.php:437
+msgid "Logout"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/rainbow.php:37 video_chat/meta_boxes.php:436
+#: video_chat/meta_boxes.php:442
+msgid "Join"
+msgstr ""
+
+#: video_chat/meta_boxes.php:358 video_chat/meta_boxes.php:507
+#: video_chat/meta_boxes.php:528 video_chat/meta_boxes.php:628
+msgid "Meeting Details"
+msgstr ""
+
+#: video_chat/meta_boxes.php:236
+msgid "Alternative hosts"
+msgstr ""
+
+#: video_chat/meta_boxes.php:231
+msgid "Enforce login"
+msgstr ""
+
+#: video_chat/meta_boxes.php:220
+msgid "Auto recording"
+msgstr ""
+
+#: video_chat/meta_boxes.php:210
+msgid "Audio"
+msgstr ""
+
+#: video_chat/meta_boxes.php:200
+msgid "Registration type"
+msgstr ""
+
+#: video_chat/meta_boxes.php:190
+msgid "Approval type"
+msgstr ""
+
+#: video_chat/meta_boxes.php:185
+msgid "Join before host"
+msgstr ""
+
+#: video_chat/meta_boxes.php:180
+msgid "Watermark"
+msgstr ""
+
+#: video_chat/meta_boxes.php:175
+msgid "Mute upon entry"
+msgstr ""
+
+#: video_chat/meta_boxes.php:170
+msgid "Participant video"
+msgstr ""
+
+#: video_chat/meta_boxes.php:165
+msgid "Host video"
+msgstr ""
+
+#: admin/templates/settings.php:82 settings/templates/settings.php:62
+#: video_chat/meta_boxes.php:159
+msgid "Public meeting"
+msgstr ""
+
+#: video_chat/meta_boxes.php:154
+msgid "Agenda"
+msgstr ""
+
+#: video_chat/tmpl/shortcode/zoom.php:124
+#: video_chat/tmpl/shortcode/zoom.php:159
+#: video_chat/tmpl/views/forms/room.php:163
+#: video_chat/tmpl/views/forms/room_education.php:166
+#: video_chat/meta_boxes.php:148
+msgid "Password"
+msgstr ""
+
+#: admin/templates/overview.php:242 video_chat/tmpl/views/forms/room.php:159
+#: video_chat/tmpl/views/forms/room_education.php:162
+#: video_chat/meta_boxes.php:142
+msgid "Duration"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/room.php:145
+#: video_chat/tmpl/views/forms/room_education.php:148
+#: video_chat/meta_boxes.php:136 video_chat/meta_boxes.php:415
+#: video_chat/meta_boxes.php:472
+msgid "Timezone"
+msgstr ""
+
+#: video_chat/tmpl/views/forms/room.php:141
+#: video_chat/tmpl/views/forms/room_education.php:144
+#: video_chat/meta_boxes.php:130 video_chat/meta_boxes.php:409
+#: video_chat/meta_boxes.php:467
+msgid "Start time"
+msgstr ""
+
+#: video_chat/meta_boxes.php:124 video_chat/meta_boxes.php:490
+msgid "Host"
+msgstr ""
+
+#: video_chat/post-type.php:89
+msgid "No meetings found in Trash."
+msgstr ""
+
+#: video_chat/post-type.php:88
+msgid "No meetings found."
+msgstr ""
+
+#: video_chat/post-type.php:87
+msgid "Parent meetings:"
+msgstr ""
+
+#: video_chat/post-type.php:86
+msgid "Search meetings"
+msgstr ""
+
+#: video_chat/post-type.php:85
+msgid "Meetings"
+msgstr ""
+
+#: video_chat/post-type.php:84
+msgid "View meetings"
+msgstr ""
+
+#: video_chat/post-type.php:83
+msgid "Edit meeting"
+msgstr ""
+
+#: video_chat/post-type.php:82
+msgid "New meeting"
+msgstr ""
+
+#: video_chat/post-type.php:81
+msgid "Add New meeting"
+msgstr ""
+
+#: video_chat/post-type.php:80
+msgid "Add New"
+msgstr ""
+
+#: video_chat/post-type.php:78
+msgctxt "Meeting"
+msgid "Meetings"
+msgstr ""
+
+#: video_chat/post-type.php:77 video_chat/post-type.php:79
+msgctxt "Meeting"
+msgid "Meeting"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://waelhassan.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Wael Hassan"
+msgstr ""
+
+#. Description of the plugin
+msgid "Video conferencing plugin. It supports Zoom and OpenRainbow services."
+msgstr ""
+
+#. Plugin Name of the plugin
+#: admin/menu.php:203 settings/settings.php:65
+msgid "KI Live Video Conferences"
+msgstr ""

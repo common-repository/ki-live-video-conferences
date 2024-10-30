@@ -1,0 +1,10 @@
+
+.ki-earth-container canvas.ki-earth{
+	width: 100%; 
+	height: 620px;
+}
+
+.earth-tip-overlay{
+	color: #fff;
+	transform: translate(10px, -12px);
+}

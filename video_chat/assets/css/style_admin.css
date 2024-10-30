@@ -1,0 +1,32 @@
+.winRainbowOAuth{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -60px;
+	width: 300px;
+	height: 120px;
+	text-align: center;
+	padding: 15px 0px;
+	background: #e69797;
+	
+}
+
+.winRainbowOAuth .close{
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.vc_rainbow_users_list .contact-list .attention{
+	color: red;
+}
+
+
+
+/*option{
+	text-indent: 15px;
+}*/
+

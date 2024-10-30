@@ -1,0 +1,189 @@
+
+.ki-live-video-conferences .ki-but{
+	display: inline-block;
+	/*padding: 5px 10px;
+	background: linear-gradient(to top, #161617, #c3c6c7);
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;*/
+}
+
+.ki-live-video-conferences select{
+	padding: 8px 10px;
+	width: 100%;
+}
+
+.ki-live-video-conferences  .ki-row{
+	margin: 4px 0px;
+}
+.ki-live-video-conferences  .ki-row a{
+	text-decoration: none;
+}
+.ki-live-video-conferences .doctors-list{
+	margin: 20px;
+}
+.ki-live-video-conferences .doctors-list .doc-row{
+	border-top: solid 1px #ccc;
+}
+.ki-live-video-conferences .doctors-list .doc-row .doctor-list-meetings{
+	display: none;
+}
+.ki-live-video-conferences .doctors-list .doc-row .doc-head{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ki-live-video-conferences .doctors-list .doc-row .doctor-name{
+	cursor: pointer;
+}
+.ki-live-video-conferences .doctor-list-meetings {
+	border-top: solid 1px #444;
+	border-bottom: solid 1px #444;
+	margin-top:10px;
+	padding: 10px 0px;
+}
+.ki-live-video-conferences .doctor-list-meetings .meeting-row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*border-top: solid 1px #ccc;*/
+}
+
+
+
+.ki-live-video-conferences .doctor-list-meetings .meeting-row .meeting-name{
+	text-indent: 20px;
+}
+
+.ki-live-video-conferences .list-appointment {
+	border-top: solid 1px #444;
+	border-bottom: solid 1px #444;
+	margin-top:10px;
+	padding: 10px 0px;
+}
+.ki-live-video-conferences .list-appointment .row-appointment{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*border-top: solid 1px #ccc;*/
+}
+
+
+
+.ki-live-video-conferences .list-appointment .row-appointment .appointment-name{
+	text-indent: 20px;
+}
+
+.ki-live-video-conferences .patients-list{
+	margin: 15px 0px;
+}
+.ki-live-video-conferences .patients-list .patient-row{
+	padding: 3px 0px;
+	text-indent: 10px;
+}
+.ki-live-video-conferences .patients-list .patient-row:nth-child(odd){
+	background: #e6e6e6;
+}
+.ki-live-video-conferences .list-appointment .row-appointment:nth-child(odd){
+	background: #e6e6e6;
+}
+.ki-live-video-conferences .doctor-list-meetings .meeting-row:nth-child(odd){
+	background: #e6e6e6;
+}
+.ki-live-video-conferences .doctor-list-meetings .meeting-row:nth-child(odd){
+	background: #e6e6e6;
+}
+
+
+
+/****************************************/
+input#um_account_submit_meetings{
+	display: none;
+}
+input#um_account_submit_meetings_request{
+	display: none;
+}
+input#um_account_submit_patients{
+	display: none;
+}
+input#um_account_submit_my_meetings_request{
+	display: none;
+}
+input#um_account_submit_students{
+	display: none;
+}
+/****************************************/
+/****************************************/
+/****************************************/
+.container-authorization .ca_buttons{
+	display: flex;
+	justify-content: canter;
+}
+.container-authorization .ca_buttons .ca_but{
+	margin: 10px 15px;
+	padding: 5px 15px;
+	background: linear-gradient(to top, #c1c1c1, #fff);
+	border: solid 1px #ccc;
+	cursor: pointer;
+}
+.ki-video-chat-shortcode .ConteinerVideoChat{
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ki-video-chat-shortcode .ConteinerVideoChat .ifrmaeVC{
+	width: 600px;
+}
+.ki-video-chat-shortcode .ConteinerVideoChat  .twitter-posts{
+
+	width: 200px;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	background: #000;
+	color: #fff;
+	overflow-y:auto;
+	height: 600px;
+}
+.ki-video-chat-shortcode .ConteinerVideoChat .tw-post{
+	padding: 10px 0px 10px 5px;
+	border-top: solid 1px #ccc;
+	background: #000;
+	font-size: 14px;
+	line-height: 22px;
+	
+}
+
+.ki-video-chat-shortcode .title-hashtag{
+	border-top: solid 1px #000;
+	background: #fff;
+
+	font-size: 16px;
+	text-align: center;
+	color: #000;
+
+}
+.ki-video-chat-shortcode .title-hashtag span{
+	color: #09c5fd;
+	font-weight: bold;
+}
+
+.ki-video-chat-shortcode .ConteinerVideoChat .tw-post:last-child{
+	border-bottom: solid 1px #ccc;
+}
+.ki-video-chat-shortcode form p input{
+	display: block;
+}
+
+
+.ki-video-chat-shortcode .RainbowAuth{
+	text-align: center;
+}
+.ki-video-chat-shortcode .RainbowAuth a{
+
+	background: linear-gradient(to top, #00b7ff, #8ad7f5);
+	padding: 5px 20px;
+	color: #000;
+	text-decoration: none;
+}

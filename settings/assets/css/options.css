@@ -1,0 +1,50 @@
+.ki_options_page_settings{
+	padding: 10px 50px;
+}
+
+.ki_options_page_settings h1{
+	font-weight: normal;
+	height: 48px;
+	line-height: 40px;
+	margin: 20px 0px;
+}
+.ki_options_page_settings h1 img{
+	float: left;
+	margin-right: 10px;
+}
+.resp-vtabs .resp-tabs-container{
+	padding: 10px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+
+    min-height: 250px;
+    border-radius: 4px;
+    clear: none;
+}
+
+.ki_options_page_settings .resp-tabs-container h2.wpd-subtitle{
+    padding: 20px 10px 18px 2px;
+    margin: 0px;
+    font-size: 23px;
+    font-weight: normal;
+    color: #0063A7;
+}
+
+
+.ki_options_page_settings label {
+    margin: 1px 0px 5px 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    display: block;
+}
+
+
+.ki_options_page_settings .button-primary{
+	padding: 8px 10px;
+}
+
+
+
+/**************************/

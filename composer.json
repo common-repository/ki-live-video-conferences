@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "SocialMedia\\": "includes/",
+      "SmFunctions\\": "lib/"
+    }
+  },
+  "require": {
+    "rilwis/meta-box": "^4.18",
+    "firebase/php-jwt": "^5.2"
+  }
+}

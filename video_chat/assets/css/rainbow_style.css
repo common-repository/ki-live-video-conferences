@@ -1,0 +1,364 @@
+body{
+	background: #000;
+	color: #fff;
+	font-family: Verdana, Arial;
+	font-size: 16px;
+}
+#vc-rainbow{
+	height: 100%;
+	max-height: 100%;
+	overflow: hidden;
+
+}
+#vc-rainbow div.btn{
+	background: linear-gradient(to top, #908f8f, #f1f1f1);
+	color: #000;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	
+}
+.but-send-inviting{
+	width: 100%;
+	padding: 5px 0px;
+}
+.form-login{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	display: none;
+	
+
+}
+.form-login .pos{
+	
+	width: 200px;
+	margin: auto;
+	position: relative;
+	top: 50px;
+	background: #fff;
+	color: #000;
+	padding: 20px;
+	border-radius: 5px;
+	z-index: 1000;
+}
+
+.form-login .play{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	width: 100px;
+	height: 100px;
+	background:url(play.png);
+	background-size: cover;
+	opacity: 0.5;
+}
+
+.vc-progress{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -110px;
+	margin-top: -20px;
+	width: 220px;
+	height:40px;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	display: none;
+	
+}
+
+.VCTools{
+	display: none;
+}
+.ToolBar{
+	display: flex;
+	justify-content: flex-between;
+	font-size: 14px;
+	margin-top: 5px;
+	
+}
+.ToolBar .LabelName{
+	margin: 0px 10px;
+}
+.ToolBar  .ConferenceName{
+	margin: 0px 10px;
+}
+.ToolBar .rainbowBubbleStop{
+	display: none;
+}
+
+.ToolBar .ListIvite{
+	display: none;
+	background: #ce2a2a;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 9px;
+	color: #fff;
+	border-radius: 100%;
+	margin-left: 15px;
+	cursor: pointer;
+	position: relative;
+	z-index: 1000;
+}
+.ToolBar .btn{
+	padding: 3px 20px;
+}
+
+.ToolBar .ListIvite .list{
+	
+	display: none;
+
+	width: 200px;
+	background: #777;
+	padding: 10px;
+	font-size: 14px;
+	margin-top: -4px;
+	margin-left: -10px;
+	text-align: left;
+}
+.ToolBar .ListIvite .list .li{
+	display: block;
+	margin: 5px 0px;
+}
+.ToolBar .ListIvite .list .li:Hover{
+	background: #333;
+}
+.ToolBar .ListIvite:hover .list{
+	display: block;
+}
+.ToolBar  .buttons-start-conference{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ToolBar  .buttons-start-conference .btn{
+	margin: 0px 2px;
+	width: 60px;
+}
+.ToolBar .buttons{
+	display: flex;
+	justify-content:  flex-start;
+	flex-wrap: wrap;
+}
+
+#vc-rainbow .ToolBar div.btn.MicrophoneOn{
+	display: none;
+}
+#vc-rainbow .ToolBar div.btn.MicrophoneOff{
+	display: block;
+}
+
+
+.VC_Chat{
+	display: flex;
+	justify-content: space-between;
+	max-height: 90%;
+	margin-top: 10px;
+}
+
+.VC_Chat .list-inviting{
+	display: none;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	
+	width: 300px;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	/*border-left: solid 1px #333;*/
+	padding: 5px;
+	
+}
+
+.VC_Chat .list-inviting .pos-close{
+	height: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.VC_Chat .list-inviting .pos-close .close{
+	color: #fff;
+
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 11px;
+	
+}
+.VC_Chat .list-inviting label{
+	font-size: 14px;
+}
+.VC_Chat .list-inviting .contact-list div{
+	margin: 5px 0px;
+	
+}
+.VC_Chat .VideoScreen{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.VC_Chat .ListVideo{
+	height: 90vh;
+	min-height: 100px;
+	max-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.VC_Chat .ListVideo video{
+	width: 160px;
+	margin: 10px;
+	/*border: solid 1px #aaa;*/
+}
+.VC_Chat .ListVideo.vn1 video{
+
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+
+}
+
+
+.VC_Chat .ListVideo.vn2 video{
+
+	width: 50%;
+	height: 50%;
+	margin: 0px;
+}
+
+.conference-participants{
+	
+	border-top: solid 1px #444;
+}
+.conference-participants .list{
+	padding: 10px 0px;
+}
+.conference-participants .list .user{
+	
+	padding: 5px 0px;
+	font-size: 14px;
+	text-indent: 10px;
+	cursor: pointer;
+}
+.conference-participants .list .user .delete{
+	display: none;
+	float: right;
+	font-size: 11px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	background: #000;
+	margin-right: 5px;
+	border-radius: 100%;
+}
+.conference-participants .list .user .delete:hover{
+	color: red;
+}
+.conference-participants .list .user:hover{
+	background: #777;
+}
+.contact-list-inviting{
+	margin-bottom: 20px;
+}
+
+
+.contact-list-inviting, .conference-participants{
+	display: none;
+}
+
+.vc-bg-locked{
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+
+.vc-bg-locked .win-locked{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	margin-top: -25px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #ccc;
+}
+
+
+#vc-rainbow.Host .contact-list-inviting ,#vc-rainbow.Host .conference-participants, #vc-rainbow.Host .rainbowBubbleStop{
+	display: block;
+}
+#vc-rainbow.Host .rainbowBubbleStart{
+	display: none;
+}
+
+#vc-rainbow.Invited .conference-participants{
+	display: block;
+}
+
+#vc-rainbow.Invited .rainbowBubbleStart , #vc-rainbow.Invited .rainbowBubbleStop , #vc-rainbow.Invited .contact-list-inviting{
+	display: none;
+}
+#vc-rainbow.Invited .conference-participants .list .user .delete{
+	display: none;
+}
+
+#vc-rainbow.Host .ListIvite, #vc-rainbow.Invited .ListIvite{
+	display: none !important;
+}
+
+#vc-rainbow.Host .VC_Chat .list-inviting, #vc-rainbow.Invited .VC_Chat .list-inviting{
+	border-left: solid 1px #444;
+}
+
+#vc-rainbow.Host .VCTools , #vc-rainbow.Invited .VCTools{
+	display: block;
+}
+
+#vc-rainbow.Locked .vc-bg-locked{
+	display: block;
+}
+
+.ShowWebCam{
+	display: none;
+}
+.HideWebCam{
+	display: none;
+}
+.ShowWebCam i.fa{
+	color: #06a016;
+}
+.HideWebCam i.fa{
+	color: #c10808;
+}
+/*#vc-rainbow.Host .ShowWebCam, #vc-rainbow.Invited .ShowWebCam{
+	display: block;
+}*/
+/*.conferenceVideoPip{
+	width: 100%;
+	height: 100%;
+}*/
